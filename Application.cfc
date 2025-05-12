@@ -1,4 +1,4 @@
-component extends="framework.one" {
+component extends="gdw-fw1-demo.framework.one" {
 	
 	this.applicationRoot = getDirectoryFromPath(getCurrentTemplatePath());
 	this.name = 'FW/1 Demo';
