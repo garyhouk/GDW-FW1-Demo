@@ -13,14 +13,13 @@ component accessors="true" {
 		rc.person   = variables.beanFactory.getBean( "user" );
 		
 		//set some properties
-		//rc.person.setName(' Rachel Vue	');
-		//rc.person.setEmail('gary@greatdental.com');
-		//rc.person.setPassword('abc');
-		//writedump(rc.person);
+		rc.person.setName(' Rachel Vue	');
+		rc.person.setEmail('gary@greatdental.com');
+		rc.person.setPassword('abc');
+
  
 		//writedump(rc.person);abort;
-
-		rc.person = entityload('user');
+ 
 		rc.currentDate = now();
 
 	}
